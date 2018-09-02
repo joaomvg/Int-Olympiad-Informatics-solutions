@@ -1,0 +1,11 @@
+#include <iostream>
+
+
+int main(){
+  std::string str;
+
+  str="hello";
+  std::cout<<str[0]<<endl;
+
+  return 0;
+}
