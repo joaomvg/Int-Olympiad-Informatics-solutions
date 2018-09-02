@@ -1,1 +1,0 @@
-#Python file for GitCourseimport randomimport mathdef norm(x,y):    return math.sqrt(x**2+y**2);def fn(x):    return math.sin(1/(x*(x-2)))**2;n=0k=100000e=0.000001for i in range (1,k):    x=random.uniform(0+e,2-e)    y=random.uniform(0+e,1)    if y<=fn(x):        n=n+1print (n/(k-1)*2)#calculate area of circle
