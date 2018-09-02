@@ -1,0 +1,21 @@
+#include<iostream>
+#include<string>
+
+
+using namespace std;
+
+
+int main(){
+
+  string s="123.4";
+
+  string::size_type z;
+
+  double x=stod(s,&z);
+
+  cout<<x<<endl;
+
+  return 0;
+
+
+}
